@@ -1,29 +1,30 @@
-import React from "react";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { motion } from "framer-motion";
+import React from "react";
+
 
 
 
 
   function Contact() {
     const [result, setResult] = React.useState("");
-  
+
     const onSubmit = async (event) => {
       event.preventDefault();
       setResult("Sending....");
       const formData = new FormData(event.target);
-  
+
       formData.append("access_key", "f70a84c0-7e1d-4cb3-a959-8466d45aa200");
-  
+
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         body: formData
       });
-  
+
       const data = await response.json();
-  
+
       if (data.success) {
         setResult("Form Submitted Successfully");
         event.target.reset();
@@ -32,6 +33,8 @@ import { motion } from "framer-motion";
         setResult(data.message);
       }
     };
+ 
+  
   return (
     <div className="p-2 pt-14 md:px-20">
       <div className=" text-[13px] items-center justify-center col-span-3 w-full h-auto">
@@ -92,7 +95,7 @@ import { motion } from "framer-motion";
         {/* --------------------------------Form------------------------------------ */}
         <div className="font-serif md:col-span-2 ">
           <div className=" text-center">
-            <form onSubmit={onSubmit}>            
+            <form  onSubmit={onSubmit}>            
               <div className="grid text-center gap-6 p-2 w-full">
                 <motion.div  initial={{ x: "-100vw" }}
             animate={{ x: 0 }}
