@@ -20,7 +20,7 @@ const Footer = () => {
           <img src={insta} alt="" className="size-10 duration-500 hover:scale-110" />
         </span>
         <span  className="flex items-center justify-center">
-        <p className="">©Copywrite Allcrownwork 2024</p>
+        <p className="text-sm">©Copywrite Allcrownwork 2024</p>
         </span>       
       </div>
     </div>
