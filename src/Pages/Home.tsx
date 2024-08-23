@@ -22,7 +22,7 @@ const Home = () => {
             JOY IS MINE.
           </h1>
           <p className=" text-slate-100 font-bold text-2xl text-center">
-            @
+            at
           </p>
           <p className=" text-slate-100 font-bold text-5xl text-center tracking-widest font-serif">
             Last
