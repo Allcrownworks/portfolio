@@ -28,7 +28,7 @@ const Portfolio = () => {
         <div className="bg-slate-50 w-full h-auto text-center grid grid-cols-1 items-center justify-center p-4 shadow-md gap-3 rounded-md shadow-slate-500">
           <div className="shadow-slate-500 bg-slate-100 w-full h-auto rounded-lg p-4 col-span-2 relative bottom-7 shadow-md">
             <h1 className="text-base md:text-lg font-bold font-serif">
-              Gbogboade Adeiye.
+              Gbogboade Adeola.
             </h1>
           </div>
           <div className="relative bg-red-900 w-24 h-24 rounded-full  bottom-12 col-start-3">
@@ -68,7 +68,7 @@ const Portfolio = () => {
         <div className="bg-slate-50 w-full h-auto text-center grid grid-cols-1 items-center justify-center p-4 shadow-md gap-3 rounded-md shadow-slate-500">
           <div className="shadow-slate-500 bg-slate-100 w-full h-auto rounded-lg p-4 col-span-2 relative bottom-7 shadow-md">
             <h1 className="text-base md:text-lg font-bold font-serif">
-              Gbogboade Adeiye.
+              Gbogboade Adeogo.
             </h1>
           </div>
           <div className="relative bg-red-900 w-24 h-24 rounded-full  bottom-12 col-start-3">
