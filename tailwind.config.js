@@ -7,10 +7,10 @@ export default {
   theme: {
     extend: {
       animation: {
-        'spin-slow': 'spin 3s linear infinite',
+        'rotate-bg': 'rotate-bg 10s linear infinite',
       },
       keyframes: {
-        spin: {
+        'rotate-bg' : {
           '0%': { transform: 'rotate(0deg)' },
           '100%': { transform: 'rotate(360deg)' },
         },

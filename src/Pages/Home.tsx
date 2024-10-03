@@ -17,7 +17,7 @@ const Home = () => {
         <motion.div   
          initial={{ opacity: 0 }}
          animate={{ opacity: 1 }}
-         transition={{ delay: 1.5, duration: 5 }} className="flex flex-col absolute w-full h-full justify-center items-center">
+         transition={{ delay: 1.5, duration: 5 }} className="p-8 flex flex-col absolute w-full h-full justify-center items-center">
           <h1 className="text-6xl font-bold font-serif text-center">
             JOY IS MINE.
           </h1>
@@ -27,7 +27,7 @@ const Home = () => {
           <p className=" text-slate-100 font-bold text-5xl text-center tracking-widest font-serif">
             Last
           </p>
-          <p className=" text-slate-100 font-bold text-3xl text-center tracking-widest font-serif">"After diving into the deep sea of challenges and emerging stronger, having swum out of it successfully."</p>
+          <p className=" text-slate-100 font-bold md:text-3xl text-2xl text-center tracking-widest font-serif">"After diving into the deep sea of challenges and emerging stronger, having swum out of it successfully."</p>
           {/* <p className=" text-slate-100 font-bold text-2xl text-center">
           I become a developer
           </p> */}

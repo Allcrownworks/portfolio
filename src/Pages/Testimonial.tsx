@@ -1,4 +1,5 @@
-import im from "../Image/spider.jpg";
+import im from "../Image/mi.jpg";
+import imi from "../Image/mii.jpg";
 import { motion } from "framer-motion";
 
 
@@ -33,7 +34,7 @@ const Portfolio = () => {
           </div>
           <div className="relative bg-red-900 w-24 h-24 rounded-full  bottom-12 col-start-3">
             <img
-              src={im}
+              src={imi}
               alt=""
               className="object-cover rounded-full duration-1000 hover:scale-110 border-orange-600 border-2 hover:border-blue-700 shadow-lg shadow-sky-900 hover:shadow-orange-500"
             />
@@ -78,8 +79,8 @@ const Portfolio = () => {
               className="object-cover rounded-full duration-1000 hover:scale-110 border-orange-600 border-2 hover:border-blue-700 shadow-lg shadow-sky-900 hover:shadow-orange-500"
             />
           </div>
-          <div className="shadow-slate-500 bg-slate-100 w-full h-auto rounded-lg p-4 col-span-3 relative bottom-8 shadow-md">
-            <p>
+          <div className="shadow-slate-500 bg-slate-100 w-full h-auto rounded-lg p-5 col-span-3 relative bottom-8 shadow-md">
+            <p className="p-1">
             "I learned how to change fonts and colors on my web page. It’s amazing to see something I created on the screen!"
             </p>
           </div>

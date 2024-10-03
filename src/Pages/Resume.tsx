@@ -14,7 +14,7 @@ const Resume = () => {
           <h1 className="font-serif tracking-widest">RESUME</h1>
         </motion.div>
       </div>
-     
+      {/* Career Objective */}
         <div className="grid grid-cols-1 col-span-1">
           <motion.div 
           initial={{ x: "-100vw" }}
@@ -33,19 +33,34 @@ const Resume = () => {
             </div>
           </motion.div>
         </div>
-        <div className="grid grid-cols-1 col-span-1">
+        {/* Career Objective */}
+        <div className="grid grid-cols-1 col-span-1 row-span-2">
           <motion.div initial={{ x: "-100vw" }}
            animate={{ x: 0 }}
            transition={{ delay: 1, duration: 0.5 }}  className="text-center text-3xl md:text-5xl font-semibold font-serif bg-slate-50 shadow-md p-4 rounded-xl shadow-slate-500">
             <div className="grid gap-4">
               <div className="bg-slate-200 p-4 rounded-xl shadow-md">
-                <h1 className="border-l-4 border-blue-600">Tech Skill.</h1>
+                <h1 className="border-l-4 border-blue-600">Education.</h1>
               </div>
               <div className="bg-slate-200 p-4 rounded-xl shadow-md">
                 <div className=" bg-slate- border-l-4 border-orange-600">
                   <h3 className="text-[30px]">Lagos State Polythenic</h3>
                   <h2 className="text-lg">2003-2005</h2>
                   <h2 className="text-lg">National Diploma in Accounting.</h2>
+                </div>
+              </div>
+              <div className="bg-slate-200 p-4 rounded-xl shadow-md">
+                <div className=" bg-slate- border-l-4 border-orange-600">
+                  <h3 className="text-[30px]">Self Thaught</h3>
+                  <h2 className="text-lg">2021-2023</h2>
+                  <h2 className="text-lg">Html, Css, Javascript And React.</h2>
+                </div>
+              </div>
+              <div className="bg-slate-200 p-4 rounded-xl shadow-md">
+                <div className=" bg-slate- border-l-4 border-orange-600">
+                  <h3 className="text-[30px]">Javascript Mastery Boot Camp</h3>
+                  <h2 className="text-lg">2024-Till Date</h2>
+                  <h2 className="text-lg">Html, Css, Javascript React And Nextjs.</h2>
                 </div>
               </div>
             </div>
@@ -57,11 +72,11 @@ const Resume = () => {
            transition={{ delay: 1, duration: 0.5 }}  className="text-center text-3xl md:text-5xl font-semibold font-serif bg-slate-50 shadow-md p-4 rounded-xl shadow-slate-500">
             <div className="grid gap-4">
               <div className="bg-slate-200 p-4 rounded-xl shadow-md">
-                <h1 className="border-l-4 border-blue-600">Skill</h1>
+                <h1 className="border-l-4 border-blue-600">Tech Skills</h1>
               </div>
               <div className="bg-slate-200 p-4 rounded-xl shadow-md">
                 <div className=" bg-slate- border-l-4 border-orange-600">
-                  <p className="text-[15px]">
+                  <p className="text-lg">
                     <ul>
                       <li>
                         Proficient in Html, CSS, Bootstrap, Tailwind, JavaScript and React.
@@ -79,24 +94,8 @@ const Resume = () => {
             </div>
           </motion.div>
         </div>
-        <div className="grid grid-cols-1 col-span-1">
-          <motion.div initial={{ x: "-100vw" }}
-           animate={{ x: 0 }}
-           transition={{ delay: 1, duration: 0.5 }}  className="text-center text-3xl md:text-5xl font-semibold font-serif bg-slate-50 shadow-md p-4 rounded-xl shadow-slate-500">
-            <div className="grid gap-4">
-              <div className="bg-slate-200 p-4 rounded-xl shadow-md">
-                <h1 className="border-l-4 border-blue-600">Tech Skill.</h1>
-              </div>
-              <div className="bg-slate-200 p-4 rounded-xl shadow-md">
-                <div className=" bg-slate- border-l-4 border-orange-600">
-                  <h3 className="text-[30px]">Lagos State Polythenic</h3>
-                  <h2 className="text-lg">2003-2005</h2>
-                  <h2 className="text-lg">National Diploma in Accounting.</h2>
-                </div>
-              </div>
-            </div>
-          </motion.div>
-        </div>
+        
+        
       </div>
     </div>
   );

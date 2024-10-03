@@ -9,10 +9,10 @@ import Resume from "./Pages/Resume";
 
 const App = () => {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden overflow-x-hidden">
         <BrowserRouter>
       <Header />
-      <div className="min-h-screen overflow-hidden">
+      <div className="min-h-screen overflow-hidden overflow-x-hidden">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
