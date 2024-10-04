@@ -22,8 +22,9 @@ const Portfolio = () => {
           <h1 className="font-serif tracking-widest">While Building My Children's Future With The Little I have Known.</h1>
         </motion.div>
       </div>
-      <motion.div  initial={{ x: 1500 }}
-        animate={{ x: 0 }} transition={{ delay: 1, duration: 0.5 }} 
+      <motion.div   initial={{ y: 200 }}
+          animate={{ y: 0 }}
+          transition={{ type: "spring", stiffness: 150 }}
         className="lg:pt-16 grid lg:grid-cols-3 md:px-20 p-1 gap-4 justify-center items-center space-y-10 lg:space-y-0">
         {/* <-------------------------------Testimonial 1---------------------------------> */}
         <div className="bg-slate-50 w-full h-auto text-center grid grid-cols-1 items-center justify-center p-4 shadow-md gap-3 rounded-md shadow-slate-500">

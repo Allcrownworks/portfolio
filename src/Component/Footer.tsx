@@ -14,14 +14,33 @@ const Footer = () => {
             <span className="text-white">works</span>
           </h1>
         </span>
-        <span className="flex gap-4 items-center justify-center">       
-          <img src={wap} alt="" className="size-10 duration-500 hover:scale-110" />
-          <img src={face} alt="" className="size-10 duration-500 hover:scale-110" />
-          <img src={insta} alt="" className="size-10 duration-500 hover:scale-110" />
+        <span className="flex gap-4 items-center justify-center">
+          <a
+            href="https://wa.me/+2348071070888"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={wap}
+              alt="WhatsApp"
+              className="size-10 duration-500 hover:scale-110"
+            />
+          </a>
+
+          <img
+            src={face}
+            alt=""
+            className="size-10 duration-500 hover:scale-110"
+          />
+          <img
+            src={insta}
+            alt=""
+            className="size-10 duration-500 hover:scale-110"
+          />
         </span>
-        <span  className="flex items-center justify-center">
-        <p className="text-sm">©Copywrite Allcrownwork 2024</p>
-        </span>       
+        <span className="flex items-center justify-center">
+          <p className="text-sm">©Copywrite Allcrownwork 2024</p>
+        </span>
       </div>
     </div>
   );

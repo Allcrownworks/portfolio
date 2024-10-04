@@ -20,7 +20,7 @@ const About = () => {
           <motion.div
             initial={{ x: "100vw" }}
             animate={{ x: 0 }}
-            transition={{ delay: 1, duration: 0.5 }}
+            transition={{ delay: 1, duration: 0.5, type: "spring", stiffness: 100  }}
             className="flex absolute top-0 bottom-0 right-0 left-0 m-auto h-[180px] w-[180px] md:h-[180px] md:w-[180px] lg:h-[200px] lg:w-[200px] xl:h-[270px] xl:w-[270px]">
             <img
               src={im}
@@ -28,10 +28,11 @@ const About = () => {
               className="object-cover rounded-full"
             />
           </motion.div>
+          {/* is image div */}
           <motion.div
-            initial={{ y: "100vw" }}
-            animate={{ y: 0 }}
-            transition={{ delay: 1, duration: 0.5 }}
+           initial={{ y: "100vh" }}
+           animate={{ y: 0 }}
+           transition={{ delay: 1, duration: 0.5, type: "spring", stiffness: 100  }}
             className="flex animate-rotate-bg top-0 bottom-0 right-0 left-0 mx-auto h-[250px] w-[250px] lg:h-[290px] lg:w-[290px]  xl:h-[390px] xl:w-[390px]">
             <img
               src={is}
