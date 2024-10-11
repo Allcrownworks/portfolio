@@ -31,6 +31,24 @@ const Portfolio = () => {
           </a>
         </motion.div>
       </div>
+      <div className="pt-10 text-[13px] items-center justify-center col-span-3 w-full h-auto">
+        <motion.div
+          initial={{ y: 200 }}
+          animate={{ y: 0 }}
+          transition={{ type: "spring", stiffness: 150 }}
+          className="shadow-slate-500 shadow-md bg-orange-600 text-center text-white font-semibold"
+        >
+          <a
+            href="https://architecture-pi.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h1 className=" tracking-widest text-center text-lg">
+              Ai Summarizer
+            </h1>
+          </a>
+        </motion.div>
+      </div>
     </div>
   );
 };
