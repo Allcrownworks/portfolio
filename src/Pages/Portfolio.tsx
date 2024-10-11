@@ -44,7 +44,7 @@ const Portfolio = () => {
             rel="noopener noreferrer"
           >
             <h1 className=" tracking-widest text-center text-lg">
-              Ai Summarizer
+              WORK DONE BY ALLCROWNWORKS
             </h1>
           </a>
         </motion.div>
