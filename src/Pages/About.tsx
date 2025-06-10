@@ -3,6 +3,7 @@ import is from "../Image/s-min.png";
 import { motion } from "framer-motion";
 
 const About = () => {
+  
   return (
     <div className="p-14 md:px-20 space-y-2">
       <div className=" text-[13px] items-center justify-center col-span-3 w-full h-auto">
@@ -61,7 +62,7 @@ const About = () => {
                 </span>
               </div>
               <div className="shadow-slate-500 shadow-md text-[15px] bg-orange-700 h-auto text-center md:text-[15px] text-white p-4 md:p-2 items-center justify-center">
-                A Self-Taught Developer.
+              Curious Developer Passionate About Code That Works.
               </div>
               <div className="p-8 shadow-slate-500 shadow-md font-serif  md:text-[11px] xl:text-[15px] bg-orange-800 h-auto text-center text-sm text-white md:p-3 justify-center items-center">
                 My journey into development began with a curiosity about how
