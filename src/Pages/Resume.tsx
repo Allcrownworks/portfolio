@@ -53,7 +53,7 @@ const Resume = () => {
                 <div className=" bg-slate- border-l-4 border-orange-600">
                   <h3 className="text-[30px]">Self Thaught</h3>
                   <h2 className="text-lg">2021-2023</h2>
-                  <h2 className="text-lg">Html, Css, Javascript And React.</h2>
+                  <h2 className="text-lg">Html, Css, Javascript, React And Nextjs.</h2>
                 </div>
               </div>
               <div className="bg-slate-200 p-4 rounded-xl shadow-md">

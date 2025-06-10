@@ -39,7 +39,7 @@ const Footer = () => {
           />
         </span>
         <span className="flex items-center justify-center">
-          <p className="text-sm">©Copywrite Allcrownwork 2024</p>
+          <p className="text-sm">Allcrownworks © {new Date().getFullYear()}</p>
         </span>
       </div>
     </div>

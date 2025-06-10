@@ -1,4 +1,4 @@
-import im from "../Image/shola 2.jpg";
+import im from "../Image/shola 1.jpg";
 import is from "../Image/s-min.png";
 import { motion } from "framer-motion";
 
